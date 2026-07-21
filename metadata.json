@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Singapore HDB Portal",
+  "description": "An interactive and fully functional Singapore Housing \u0026 Development Board (HDB) citizen portal. It features a personalised citizen dashboard, interactive flat eligibility (HFE) calculator, season parking renewal/transfer systems, calendar appointment booking, recent HDB news, and an intelligent \u0027Ask HDB\u0027 AI virtual assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
