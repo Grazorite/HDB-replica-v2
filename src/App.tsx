@@ -379,12 +379,6 @@ export default function App() {
                   Parking
                 </button>
                 <button 
-                  onClick={() => triggerLoginOrAction("feedback")}
-                  className={`text-xs uppercase tracking-wider font-extrabold pb-1 border-b-2 transition-all ${currentView === "feedback" ? "border-[#00686c] text-[#00686c]" : "border-transparent text-[#3e4949] hover:text-[#00686c]"}`}
-                >
-                  Feedback
-                </button>
-                <button 
                   onClick={() => alert("Redirecting to HDB Place2Lease commercial bidding platform.")}
                   className="text-xs uppercase tracking-wider font-extrabold pb-1 border-b-2 border-transparent text-[#3e4949] hover:text-[#00686c] cursor-pointer"
                 >
@@ -395,6 +389,12 @@ export default function App() {
                   className="text-xs uppercase tracking-wider font-extrabold pb-1 border-b-2 border-transparent text-[#3e4949] hover:text-[#00686c] cursor-pointer"
                 >
                   Business Partners
+                </button>
+                <button 
+                  onClick={() => triggerLoginOrAction("feedback")}
+                  className={`text-xs uppercase tracking-wider font-extrabold pb-1 border-b-2 transition-all ${currentView === "feedback" ? "border-[#00686c] text-[#00686c]" : "border-transparent text-[#3e4949] hover:text-[#00686c]"}`}
+                >
+                  Feedback
                 </button>
               </nav>
             </div>
